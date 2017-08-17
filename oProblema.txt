@@ -1,0 +1,72 @@
+Tô tentando fazer o deployment de uma aplicação aqui pro Heroku, mas tá aparecendo um erro que não está fazendo muito sentido: 
+
+bundle.js:1 Uncaught Error: Cannot find module "./src/index.js"
+    at bundle.js:1
+    at Object.<anonymous> (bundle.js:1)
+    at n (bundle.js:1)
+    at bundle.js:1
+    at bundle.js:1
+
+Como funciona?
+
+basta instalar as depedencias do pacote e rodar o servidor:
+node index.js
+
+Quando rodo, localmente, tudo funciona direitinho, mas quando faço o deployment recebo este log:
+
+-----> Node.js app detected
+-----> Creating runtime environment
+       
+       NPM_CONFIG_LOGLEVEL=error
+       NPM_CONFIG_PRODUCTION=true
+       NODE_VERBOSE=false
+       NODE_ENV=production
+       NODE_MODULES_CACHE=true
+-----> Installing binaries
+       engines.node (package.json):  8.2.0
+       engines.npm (package.json):   5.3.0
+       
+       Resolving node version 8.2.0...
+       Downloading and installing node 8.2.0...
+       npm 5.3.0 already installed with node
+-----> Restoring cache
+       Loading 2 from cacheDirectories (default):
+       - node_modules
+       - bower_components (not cached - skipping)
+-----> Building dependencies
+       Installing node modules (package.json + package-lock)
+       
+       > redux-simple-starter@1.0.0 postinstall /tmp/build_0ae9d55f196a4706fbbda93205d644b8
+       > webpack -p
+       
+       Hash: d437a155a1da4cdfeeeb
+       Version: webpack 1.15.0
+       Time: 107ms
+       Asset       Size  Chunks             Chunk Names
+       bundle.js  290 bytes       0  [emitted]  main
+       [0] multi main 28 bytes {0} [built] [1 error]
+       
+       ERROR in multi main
+       Module not found: Error: Cannot resolve module 'babel' in /tmp/build_0ae9d55f196a4706fbbda93205d644b8
+       @ multi main
+       added 115 packages in 11.584s
+-----> Caching build
+       Clearing previous node cache
+       Saving 2 cacheDirectories (default):
+       - node_modules
+       - bower_components (nothing to cache)
+-----> Build succeeded!
+-----> Discovering process types
+       Procfile declares types -> web
+-----> Compressing...
+       Done: 30M
+-----> Launching...
+       Released v4
+       https://lojadejoias.herokuapp.com/ deployed to Heroku
+
+
+quando tento acessar pelo heroku, aparece o erro do início falando que ele não consegue localizar ./src/index.js 
+
+o que não faz sentido algum... 
+
+
