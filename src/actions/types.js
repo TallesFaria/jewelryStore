@@ -1,0 +1,16 @@
+export const AUTH_USER = 'auth_user';
+export const UNAUTH_USER = 'unauth_user';
+export const AUTH_ERROR = 'auth_error';
+export const FETCH_MESSAGE = 'fetch_message';
+export const ADD_CLIENT = 'add_client';
+export const DELETE_CLIENT = 'delete_client';
+export const FETCH_CLIENTS = 'fetch_clients';
+export const FETCH_DEVEDORES = 'fetch_devedores';
+export const SET_CLIENT = 'set_client';
+export const EDIT_CLIENT = 'edit_client';
+export const ADD_ACERTO = 'add_acerto';
+export const DELETE_ACERTO = 'delete_acerto';
+export const FETCH_ACERTOS = 'fetch_acertos';
+export const EDIT_ACERTO = 'edit_acerto';
+export const SET_ACERTO = 'set_acerto';
+export const GET_REPORTS = 'get_reports';

@@ -1,0 +1,43 @@
+Install: mongodb + robomongo
+
+RUN:
+
+npm install -  to install dependencies
+
+npm run dev
+
+nodemon
+
+
+MONGODB
+
+Followed this tutorial
+https://www.youtube.com/watch?v=VNie_VWqimA
+
+you need to add a config file - not available here because it's protected.
+
+Install mongoDB
+
+sudo apt-get install mongodb
+
+sudo apt-get update
+
+sudo service mongodb start
+
+mongo 
+
+IT does not work:
+
+Follow:
+
+https://docs.mongodb.com/tutorials/install-mongodb-on-ubuntu/
+
+To start mongoDB: sudo service mongod start
+
+
+ROBOMONGO:
+
+https://robomongo.org/download
+
+Extract and run the exe file inside bin
+

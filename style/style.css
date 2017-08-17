@@ -1,0 +1,453 @@
+html {
+  /*box-sizing: border-box;*/
+  background-color: #100404;
+  /* background: url('https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=940&h=650&auto=compress&cs=tinysrgb') no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  font-size: 1.2rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #100404;
+  background-color: #1b1010;
+}
+
+p {
+  line-height: 1.4rem;
+}
+
+a {
+  color: #5d80e8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c94e50;
+}
+
+h2 {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: auto;
+  color: #fffce1;
+  font-weight: 400;
+  line-height: 2rem;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 2rem;
+  color: #c94e50;
+  font-weight: 600;
+}
+
+header {
+  position: relative;
+  background-color: #b4bad2;
+  padding: 4rem 0 4rem;
+  border-bottom: 3rem solid #c94e50;
+}
+
+.error {
+    color: red;
+}
+
+.form-inline {
+    margin: 1.3em 0;
+}
+
+.form-inline .form-group {
+    margin-bottom: 0;
+}
+
+.form-inline .form-group,
+.form-inline .form-control,
+.form-inline button {
+    width: 100%;
+}
+
+.bg-danger,
+.bg-info {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #4e3942;
+    border-radius: 8px;
+    background-color: #c3c3c3;
+}
+
+.map {
+    height: 50rem;
+    border: 0.3rem solid #4e3942;
+    border-radius: 1rem;
+}
+
+.home {
+  background-color: #100404;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  background-color: #100404;
+}
+
+.full-screen {
+    background-color: #100404;
+}
+
+.link {
+  padding: 1rem;
+  color: #94bee8;
+  flex: 1;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.content-text {
+    color: #cdb8ea;
+}
+.content-text:hover {
+    text-decoration: none;
+}
+
+.label-checkbox {
+    color: #cdb8ea;
+    margin-left: 0rem;
+    font-size: 20px;
+    margin: 1.3rem;
+    flex: 1;
+}
+
+.clientbutton {
+  color: gray;
+}
+
+.navigation-bar {
+    display: flex;
+    margin-left: 22vw;
+    margin-right: 20vw;
+    font-size: 20px;
+}
+
+.nav {
+  padding: 1rem 1rem 0;
+  background: #333;
+  
+}
+.is-visible {
+  border: solid 1px red;
+}
+section {
+  margin: 1.2rem;
+}
+h2, p {
+  margin: 0;
+}
+
+.tabs {
+  display: inline-block;
+  margin-left: 35vw;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.abas-header {
+    margin-left: 18vw;
+    margin-bottom: 2rem;
+    color: #94bee8;
+}
+
+a, h1, h2 {
+   color: #94bee8;
+}
+
+.sub-header {
+    font-weight:bold; 
+    font-size:2em;
+}
+
+.text {
+    font-weight:bold;
+}
+
+.input-home {
+    margin-bottom: 1.3rem;
+    width: 60%;
+    background-color: #100404;
+    color: #553e77;
+    font-size: 20px;
+    height: 10rem;
+}
+
+.input-grades {
+    width: 30%;
+    text-align: center;
+    background-color: #100404;
+    color: #553e77;
+}
+
+.input-agenda {
+    margin-bottom: 1.2rem;
+    width: 60%;
+    background-color: #100404;
+    color: #cdb8ea;
+    font-size: 2rem;
+    text-align: center;
+    height: 4vh;
+    border: 0.2rem solid #4e3942;
+    border-radius: 0.5rem;
+    margin-left: 11vw;
+}
+
+input:-webkit-autofill {
+    background-color: #4e3942;
+}
+
+.button-agenda {
+    background-color: #b78d8d;
+    color: #553e77;
+}
+
+.button-map {
+    margin-left: 0.8rem;
+    width: 100%;
+}
+
+button, select {
+    border: 0.2rem solid #4e3942;
+    border-radius: 1rem;
+}
+
+.container-fluid {
+    background-color:#100404;
+}
+
+.navs {
+    position: relative;
+    min-height: 5vh;
+    margin-bottom: 4rem;
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+}
+
+.navbar-light {
+    padding: 0.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.navbar-inverse {
+    background-color: #f9eaf9;
+    border-color: #f9eaf9;
+}
+
+.navbar-inverse .nav-upper {
+    color: #b1b6ff;
+    font-size: 1.6rem;
+}
+
+.nav-down {
+    color: #b1b6ff;
+    font-size: 1.6rem;
+    float: right;
+}
+
+.primary:focus {
+    background-color: #337ab7;
+}
+
+.btn-primary {
+    background-color: #34495e;
+}
+
+.btn-success:focus {
+    background-color: #337ab7;
+}
+
+.btn-success:hover {
+    background-color: #337ab7;
+}
+
+.btn-success {
+    background-color: #34495e;
+}
+
+.form-control {
+    margin-bottom: 0.4rem;
+}
+.selecionado {
+    background-color: yellow;
+}   
+.negrito {
+	font-weight: bold;
+}
+
+.hr {
+    padding: 0.7rem;
+    border-color: #4e3942;
+    border-top: 1px solid #4e3942;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.agenda {
+    width: 60%;
+    margin-left: 18vw;
+    padding: 2.5rem;
+    margin-top: 4rem;
+    background-color: #2b2a2d;
+    border: 0.2rem solid #4e3942;
+    border-radius: 0.5rem;
+}
+
+.cadastro {
+    width: 60%;
+    margin-left: 18vw;
+    padding: 1.5rem;
+}
+
+.devedores {
+    width: 60%;
+    margin-left: 18vw;
+    padding: 1.5rem;
+}
+
+.signin {
+    width: 30%;
+    margin-left: 10vw;
+    padding: 1.5rem;
+}
+
+.signup {
+    width: 30%;
+    margin-left: 10vw;
+    padding: 1.5rem;
+}
+
+.client-list {
+    font-size: 2rem;
+    color: #f9eaf9;
+}
+.client-list:hover {
+    text-decoration: none;
+}
+
+.details {
+    font-size: 2rem;
+    color: #d86161;
+    margin: 0.8rem;
+}
+
+.details-text {
+    font-size: 2rem;
+    color: #97a7ff;
+    margin: 0.8rem;
+}
+
+.client-operations {
+    margin-left: 28vw;
+    margin-top: 4rem;
+}
+
+.client-operation {
+    margin-top: 4rem;
+    font-size: 3rem;
+    margin-left: 1vw;
+    text-shadow: 0.2rem 0.2rem #1d0b0b;
+}
+
+.client-operation:hover {
+    text-decoration: none;
+}
+
+.no-display {
+    display: none;
+}
+
+.acerto {
+    border: 0.2rem solid #4e3942;
+    border-radius: 1rem;   
+}
+
+.debito {
+    font-size: 2.5rem;
+    color: #d43939;
+}
+
+.options {
+    padding: 1rem;
+    color: #94bee8;
+    flex: 1;
+    font-size: 2.5rem;
+    text-shadow: 0.2rem 0.2rem #1d0b0b;
+}
+
+.options:hover {
+    text-decoration: none;
+}
+
+.reports {
+    font-size: 2.5rem;
+    margin-top: 5vh;
+    padding: 1.5rem;
+    border: 0.2rem solid #4e3942;
+    border-radius: 1rem;   
+}
+
+.reports-header {
+    width: 60%;
+    margin-left: 10vw;
+    padding: 2vw;
+    color: #94bee8;
+}
+
+.reports-body {
+    width: 60%;
+    margin-left: 11vw;
+    padding: 1.5rem;
+    color: #94bee8;
+}
+
+.reports-text {    
+    margin-top: 2vw;
+}
+
+.reports-content-text {    
+    color: #fdb19d;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+  /* Checkbox text */
+  font-size: 2.5rem;
+  color: #cdb8ea;
+  margin: 2rem;
+  display: inline;
+}
+
+.checkboxes {
+    margin-left: 25vw;
+}
+
+.semContato {
+    font-size: 3rem;
+    color: yellow;
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Lucas loja",
+    "description": "Storing client's data", 
+    "keywords": ["node", "express", "static"],
+    "image": "heroku/nodejs"
+}
