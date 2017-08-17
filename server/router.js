@@ -11,6 +11,9 @@ const requireAuth = passport.authenticate('jwt', { session: false });
 const requireSignin = passport.authenticate('local', { session: false });
 
 module.exports = function (app) {
+    app.get('*', (req, res) => {
+        res.sendFile(path.resolve(__dirname, '../index.html'))
+    });
     app.get('/fetchClients', requireAuth, Client.fetchData);
     app.get('/fetchDevedores', requireAuth, Client.fetchDevedores);
     app.post('/fetchAcertos', Acertos.fetchAcertos);

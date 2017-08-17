@@ -10,6 +10,7 @@ const router = require('./server/router');
 
 mongoose.connect('mongodb://tallesfaria:7Iw71vneVUba9b5@ds149373.mlab.com:49373/lucasloja');
 
+
 //App setup
 app.use(morgan('combined'));
 app.use(cors());
