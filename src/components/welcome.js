@@ -22,12 +22,9 @@ class Welcome extends Component {
     
     render() {
         return (
-            <nav className="navs">
-                <Link to="/inicio" className="navbar-brand"><h2>Início</h2></Link>
-                <ul>
-                    {this.renderLinks()}
-                </ul>
-            </nav>
+            <div>
+                {this.renderLinks()}
+            </div>
         );
     }
 }
