@@ -194,7 +194,7 @@ a, h1, h2 {
 
 .input-agenda {
     margin-bottom: 1.2rem;
-    width: 60%;
+    width: 60vw;
     background-color: #100404;
     color: #cdb8ea;
     font-size: 2rem;
@@ -304,6 +304,7 @@ button, select {
     margin-top: 4rem;
     background-color: #2b2a2d;
     border: 0.2rem solid #4e3942;
+    margin-bottom: 100vw;
     border-radius: 0.5rem;
 }
 
@@ -450,4 +451,12 @@ input[type=checkbox]
 .semContato {
     font-size: 3rem;
     color: yellow;
+}
+
+.pagina-inicial {
+    margin: 20vw;
+    color: #ffae1a;
+    align-self: auto;
+    margin-bottom: 100vw;
+    font-size: 5vw;
 }

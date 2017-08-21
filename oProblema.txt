@@ -69,4 +69,10 @@ quando tento acessar pelo heroku, aparece o erro do início falando que ele não
 
 o que não faz sentido algum... 
 
+O problema era o seguinte: algumas dependências que estavam listadas no devDependencies precisavam estar só em dependencies
+
+o Heroku instala apenas as dependências e exclui as de desenvolvimento. 
+
+
+
 

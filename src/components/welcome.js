@@ -7,7 +7,7 @@ class Welcome extends Component {
         return (
             <div>
                 <div className="pagina-inicial">
-                    <h1>Por favor, faça login!</h1>
+                    <span>Por favor, faça login!</span>
                 </div>
             </div>
         );
